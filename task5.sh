@@ -44,3 +44,4 @@ while true; do
   last_numbers=$(echo $last_numbers | cut -d' ' -f1-10)
   echo -e "Последние 10 чисел: $last_numbers"
 done
+
